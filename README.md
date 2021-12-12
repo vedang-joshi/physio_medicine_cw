@@ -7,4 +7,4 @@ In this work, we conduct a model comparison and analysis on the paper [Minimal m
 ## Requirements
 
 ## Comments
-Reproduction of figure 6 may be done using the corresponding code but requires parallelisation and the use of multiple cores. For ease of reproduction, we recommend using the pickle files as given and instead using .... to reproduce figure 6.
+Reproduction of figure 6 may be done using the corresponding code but requires parallelisation and the use of multiple cores. For ease of reproduction, we recommend using the pickle files as given and instead running 'figure_6_after_parallel.py' to reproduce figure 6.
