@@ -2,7 +2,6 @@ from PyDSTool import *
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import matplotlib.lines as mlines
-from adjustText import adjust_text
 
 pars = {'v_0': 1,
          'k': 10,
