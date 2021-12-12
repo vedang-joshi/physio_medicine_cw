@@ -21,6 +21,11 @@ $ conda activate env
 ```bash
 $ pip install -r requirements.txt
 ```
+### Dopri/Radau and AUTO interface requirements
+- Install [swig](http://www.swig.org): 
+```bash
+$ conda install -c anaconda swig
+```
 
 ## Notes
 Reproduction of figure 6 may be done using the corresponding code but requires parallelisation and the use of multiple cores. For ease of reproduction, we recommend downloading 'max_values_list_Z.pkl' and 'vm3_value_list.pkl' and instead running 'figure_6_after_parallel.py'.
