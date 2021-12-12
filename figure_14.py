@@ -48,7 +48,6 @@ PC = ContClass(testDS)
 PCargs = args(name='EQ1', type='EP-C')
 PCargs.freepars = ['beta']
 PCargs.StepSize = 1e-3
-#PCargs.MaxNumPoints = 4500
 PCargs.MaxStepSize = 0.1
 PCargs.LocBifPoints = 'all'
 PCargs.SaveEigen = True
