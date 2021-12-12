@@ -5,8 +5,16 @@ This repository contains the Python code to reproduce all the figures in the cou
 In this work, we conduct a model comparison and analysis on the paper [Minimal model for signal-induced Ca2+ oscillations and for their frequency encoding through protein phosphorylation](https://www.pnas.org/content/pnas/87/4/1461.full.pdf). We introduce the biological model in terms of a system of ODEs and compare model approaches to ones found in the literature. We conduct show how the system dynamics change in time for various parameter sets. We give a phase plane analysis to qualitatively determine features in the non-linear system. We end by conducting a bifurcation analysis on the system of ODEs. 
 
 ## Requirements
-- Python 3.8
-- Install python external modules using `pip install -r requirements.txt` after activating virtualenv.
+This code requires Python 3.8. [Anaconda](https://www.anaconda.com/distribution/)is recommended the default Python environment and package manager to make the setup easy.
+### Setting Up a Virtual Environment
+- After setting up Anaconda, in your Anaconda prompt/ Terminal:
+  $ conda update conda
+  $ conda update --all
+- You may create a new environment (called 'env') as follows:
+  $ conda create -n env python=3.8 anaconda
+	$ conda activate env
+- Install python external dependencies after activating 'env': 
+  $ pip install -r requirements.txt
 
 ## Notes
 Reproduction of figure 6 may be done using the corresponding code but requires parallelisation and the use of multiple cores. For ease of reproduction, we recommend downloading 'max_values_list_Z.pkl' and 'vm3_value_list.pkl' and instead running 'figure_6_after_parallel.py'.
