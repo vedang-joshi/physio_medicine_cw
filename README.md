@@ -17,7 +17,7 @@ $ conda update --all
 $ conda create -n env python=3.8 anaconda
 $ conda activate env
 ```
-- Install python external dependencies after activating 'env': 
+- Install python external dependencies after activating `env`: 
 ```bash
 $ pip install -r requirements.txt
 ```
