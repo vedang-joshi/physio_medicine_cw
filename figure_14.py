@@ -2,7 +2,6 @@ from PyDSTool import *
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import matplotlib.lines as mlines
-from adjustText import adjust_text
 
 pars = {'v_0': 1,
          'k': 10,
@@ -68,7 +67,5 @@ blue_circle = mlines.Line2D([0], [0], marker='o', color='w', label='Hopf \n bifu
 plt.legend(handles=[black_line_stable, black_line_unstable, blue_circle], loc='upper right')
 PC['EQ1'].info()
 plt.title("Numerical continuation bifurcation diagram of subsystem Y varying $\\beta$ ")
-#\n H1-H4 family of limit cycles ")
-#\n Zoomed into system dynamics at H1")
 plt.xlim(-2, 2)
 plt.show()
