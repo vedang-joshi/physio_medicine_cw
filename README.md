@@ -12,7 +12,7 @@ This code requires Python 3.8. [Anaconda](https://www.anaconda.com/distribution/
 $ conda update conda
 $ conda update --all
 ```
-- You may create a new environment (called 'env') as follows:
+- You may create a new [virtual environment](https://docs.python.org/3/tutorial/venv.html) (called 'env') as follows:
 ```bash
 $ conda create -n env python=3.8 anaconda
 $ conda activate env
