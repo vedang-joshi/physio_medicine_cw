@@ -24,3 +24,12 @@ $ pip install -r requirements.txt
 
 ## Notes
 Reproduction of figure 6 may be done using the corresponding code but requires parallelisation and the use of multiple cores. For ease of reproduction, we recommend downloading 'max_values_list_Z.pkl' and 'vm3_value_list.pkl' and instead running 'figure_6_after_parallel.py'.
+
+## Author
+
+* **Vedang Joshi**  - [Personal Page](https://vedang-joshi.github.io)
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
