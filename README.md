@@ -8,13 +8,13 @@ In this work, we conduct a model comparison and analysis on the paper [Minimal m
 This code requires Python 3.8. [Anaconda](https://www.anaconda.com/distribution/)is recommended the default Python environment and package manager to make the setup easy.
 ### Setting Up a Virtual Environment
 - After setting up Anaconda, in your Anaconda prompt/ Terminal:
-  $ conda update conda
-  $ conda update --all
+    	$ conda update conda
+    	$ conda update --all
 - You may create a new environment (called 'env') as follows:
-  $ conda create -n env python=3.8 anaconda
-	$ conda activate env
+  	$ conda create -n env python=3.8 anaconda
+  	$ conda activate env
 - Install python external dependencies after activating 'env': 
-  $ pip install -r requirements.txt
+  	$ pip install -r requirements.txt
 
 ## Notes
 Reproduction of figure 6 may be done using the corresponding code but requires parallelisation and the use of multiple cores. For ease of reproduction, we recommend downloading 'max_values_list_Z.pkl' and 'vm3_value_list.pkl' and instead running 'figure_6_after_parallel.py'.
