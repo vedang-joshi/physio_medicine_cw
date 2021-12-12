@@ -15,12 +15,12 @@ $ conda update --all
 - You may create a new [virtual environment](https://docs.python.org/3/tutorial/venv.html) (called `env`) as follows:
 ```bash
 $ conda create -n env python=3.8 anaconda
-$ conda activate env
 ```
 ### Dependencies
 
 - Install python external dependencies after activating `env`: 
 ```bash
+$ conda activate env
 $ pip install -r requirements.txt
 ```
 ### Dopri/Radau and AUTO interface requirements
