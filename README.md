@@ -8,5 +8,5 @@ In this work, we conduct a model comparison and analysis on the paper [Minimal m
 - Python 3.8
 - Install python external modules using `pip install -r requirements.txt` after activating virtualenv.
 
-## Comments
+## Notes
 Reproduction of figure 6 may be done using the corresponding code but requires parallelisation and the use of multiple cores. For ease of reproduction, we recommend downloading 'max_values_list_Z.pkl' and 'vm3_value_list.pkl' and instead running 'figure_6_after_parallel.py'.
